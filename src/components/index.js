@@ -1,5 +1,5 @@
-import { AppNavbar } from "./navbar";
+import Layout from "./layout"
 
 export {
-    AppNavbar,
+    Layout,
 }

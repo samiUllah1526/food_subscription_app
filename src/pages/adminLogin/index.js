@@ -23,7 +23,6 @@ export function AdminLogin() {
                 >
                     Login as an admin
                 </Title>
-
                 <Paper withBorder shadow="md" p={30} mt={30} radius="md">
                     <TextInput label="Email" placeholder="you@mantine.dev" required />
                     <PasswordInput label="Password" placeholder="Your password" required mt="md" />

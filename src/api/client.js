@@ -6,6 +6,5 @@ export const useLoginClient = () => {
     return useMutation((body) => api.post(ENDPOINTS.CLIENT.LOGIN, body))
 }
 
-export const useRegisterClient = () => {
-    return useMutation((body) => api.post(ENDPOINTS.CLIENT.LOGIN, body))
-}
+export const useRegisterClient = () =>
+    useMutation((body) => api.post(ENDPOINTS.CLIENT.LOGIN, body))
