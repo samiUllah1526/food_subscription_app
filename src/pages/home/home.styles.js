@@ -1,5 +1,5 @@
 import { createStyles } from '@mantine/core';
-import colors from '../../contants/colors';
+import colors from 'contants/colors';
 
 
 export const useStyles = createStyles((theme) => ({

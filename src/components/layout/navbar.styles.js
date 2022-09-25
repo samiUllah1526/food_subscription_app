@@ -1,6 +1,6 @@
 import { createStyles } from '@mantine/core';
-import colors from '../../contants/colors';
-// import primary_color
+import colors from 'contants/colors';
+
 export const useStyles =  createStyles((theme) => ({
     height: {
         minHeight: '80px',

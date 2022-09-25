@@ -1,4 +1,4 @@
-import colors from "../contants/colors"
+import colors from "contants/colors"
 
 
 export default {
